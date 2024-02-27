@@ -16,3 +16,9 @@ class RegisterDriver(models.Model):
 
     def __str__(self):
         return self.name
+
+class CarType(models.Model):
+    name = models.CharField(max_length=150)
+
+    def _str_(self):
+        return self.name
