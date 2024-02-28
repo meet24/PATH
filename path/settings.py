@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rideapp.apps.RideappConfig',
+    "rentalapp.apps.RentalappConfig",
+    "parcelapp.apps.ParcelappConfig"
 ]
 
 MIDDLEWARE = [
