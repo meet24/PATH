@@ -1,5 +1,5 @@
 from django.db import models
-import datetime
+from datetime import datetime
 
 class RegisterDriver(models.Model):
     GENDER_CHOICES = [
