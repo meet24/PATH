@@ -20,7 +20,7 @@ class RegisterDriver(models.Model):
 class CarType(models.Model):
     name = models.CharField(max_length=150)
 
-    def _str_(self):
+    def __str__(self):
         return self.name
 
 class Location(models.Model):
@@ -41,5 +41,5 @@ class Location(models.Model):
     ])
     city = models.CharField(max_length=100)
 
-    def _str_(self):
-        return f"{self.city}, {self.state}"
+    def __str__(self):
+        return f"{self.city} {self.state}"
